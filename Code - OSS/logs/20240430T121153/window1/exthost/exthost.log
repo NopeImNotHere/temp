@@ -1,0 +1,16 @@
+2024-04-30 12:11:54.404 [info] Extension host with pid 24348 started
+2024-04-30 12:11:54.404 [info] Skipping acquiring lock for /home/ninh/.config/Code - OSS/User/workspaceStorage/77e55a5f4b4e86f44cbb2a6afd3bbdc5.
+2024-04-30 12:11:54.541 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-30 12:11:54.551 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-04-30 12:11:54.845 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-30 12:11:54.847 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-04-30 12:11:54.858 [info] ExtensionService#_doActivateExtension joelday.docthis, startup: true, activationEvent: '*'
+2024-04-30 12:11:54.919 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: true, activationEvent: 'workspaceContains:.vscode/sftp.json'
+2024-04-30 12:11:55.005 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-30 12:11:55.028 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-30 12:11:55.205 [info] Eager extensions activated
+2024-04-30 12:11:55.232 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-30 12:11:55.234 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-30 12:11:55.239 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-04-30 12:11:55.241 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-04-30 12:11:55.247 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'

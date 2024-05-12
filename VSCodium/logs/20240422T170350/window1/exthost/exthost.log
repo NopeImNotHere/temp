@@ -1,0 +1,18 @@
+2024-04-22 17:03:51.707 [info] Extension host with pid 1127 started
+2024-04-22 17:03:51.751 [info] ExtensionService#_doActivateExtension HTMLHint.vscode-htmlhint, startup: false, activationEvent: 'onFileSystem:file'
+2024-04-22 17:03:51.783 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-22 17:03:51.817 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-22 17:03:51.820 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-04-22 17:03:51.832 [info] ExtensionService#_doActivateExtension oouo-diogo-perdigao.docthis, startup: true, activationEvent: '*'
+2024-04-22 17:03:51.899 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-22 17:03:51.926 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-22 17:03:52.049 [info] Eager extensions activated
+2024-04-22 17:03:52.050 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:03:52.052 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:03:52.057 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:03:52.066 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:03:52.071 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:03:52.078 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:04:01.512 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-04-22 17:08:17.161 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-22 17:08:17.168 [info] Extension host with pid 1127 exiting with code 0

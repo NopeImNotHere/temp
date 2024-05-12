@@ -1,0 +1,11 @@
+{
+    "name": "My Server",
+    "host": "v2201910106725100809.hotsrv.de",
+    "protocol": "ftp",
+    "port": 22,
+    "username": "TeamBerlin",
+    "remotePath": "/",
+    "uploadOnSave": false,
+    "useTempFile": false,
+    "openSsh": false
+}

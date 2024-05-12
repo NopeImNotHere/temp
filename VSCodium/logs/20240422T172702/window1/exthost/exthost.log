@@ -1,0 +1,18 @@
+2024-04-22 17:27:07.192 [info] Extension host with pid 10366 started
+2024-04-22 17:27:07.192 [info] Skipping acquiring lock for /home/ninh/.config/VSCodium/User/workspaceStorage/4d75d84e0704a23a6d3a814de64f1c09.
+2024-04-22 17:27:07.459 [info] ExtensionService#_doActivateExtension HTMLHint.vscode-htmlhint, startup: false, activationEvent: 'onFileSystem:file'
+2024-04-22 17:27:07.488 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-22 17:27:07.492 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-04-22 17:27:07.910 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-22 17:27:07.912 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-04-22 17:27:07.923 [info] ExtensionService#_doActivateExtension oouo-diogo-perdigao.docthis, startup: true, activationEvent: '*'
+2024-04-22 17:27:07.987 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-22 17:27:08.015 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-22 17:27:08.208 [info] Eager extensions activated
+2024-04-22 17:27:08.215 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:27:08.216 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:27:08.220 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:27:08.225 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:27:08.233 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:35:34.877 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-22 17:35:34.895 [info] Extension host with pid 10366 exiting with code 0

@@ -1,0 +1,36 @@
+2024-05-02 11:52:49.036 [info] Extension host with pid 8892 started
+2024-05-02 11:52:49.036 [info] Skipping acquiring lock for /home/ninh/.config/Code - OSS/User/workspaceStorage/77e55a5f4b4e86f44cbb2a6afd3bbdc5.
+2024-05-02 11:52:49.271 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-02 11:52:49.282 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-05-02 11:52:49.773 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-02 11:52:49.776 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-05-02 11:52:49.792 [info] ExtensionService#_doActivateExtension joelday.docthis, startup: true, activationEvent: '*'
+2024-05-02 11:52:49.886 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: true, activationEvent: 'workspaceContains:.vscode/sftp.json'
+2024-05-02 11:52:50.049 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-02 11:52:50.088 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-02 11:52:50.328 [info] Eager extensions activated
+2024-05-02 11:52:50.333 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:52:50.336 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:52:50.346 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:52:50.350 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:52:50.362 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:53:18.610 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-02 11:53:18.639 [info] Extension host with pid 8892 exiting with code 0
+2024-05-02 11:53:19.235 [info] Extension host with pid 9194 started
+2024-05-02 11:53:19.235 [info] Skipping acquiring lock for /home/ninh/.config/Code - OSS/User/workspaceStorage/77e55a5f4b4e86f44cbb2a6afd3bbdc5.
+2024-05-02 11:53:19.267 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-02 11:53:19.276 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-05-02 11:53:19.323 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onCommand:vscode-html-css.validate'
+2024-05-02 11:53:19.438 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-02 11:53:19.441 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-05-02 11:53:19.456 [info] ExtensionService#_doActivateExtension joelday.docthis, startup: true, activationEvent: '*'
+2024-05-02 11:53:19.536 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: true, activationEvent: 'workspaceContains:.vscode/sftp.json'
+2024-05-02 11:53:19.665 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-02 11:53:19.693 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-02 11:53:19.916 [info] Eager extensions activated
+2024-05-02 11:53:19.919 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:53:19.923 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:53:19.934 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:53:19.944 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-05-02 11:53:36.367 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-02 11:53:36.387 [info] Extension host with pid 9194 exiting with code 0

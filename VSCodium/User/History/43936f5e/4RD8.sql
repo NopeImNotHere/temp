@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS hotelkette;
+
+CREATE DATABASE hotelkette;

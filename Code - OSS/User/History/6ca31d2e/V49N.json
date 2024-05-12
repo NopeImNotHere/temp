@@ -1,0 +1,7 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Cobalt2",
+    "editor.minimap.enabled": false
+}

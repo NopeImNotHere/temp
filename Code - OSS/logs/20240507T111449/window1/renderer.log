@@ -1,0 +1,36 @@
+2024-05-07 11:14:51.127 [info] Started local extension host with pid 80019.
+2024-05-07 11:14:52.007 [error] [Extension Host] (node:80019) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-05-07 11:14:54.081 [info] [perf] Render performance baseline is 159ms
+2024-05-07 11:15:12.906 [info] Started local extension host with pid 80320.
+2024-05-07 11:15:15.759 [info] [perf] Render performance baseline is 169ms
+2024-05-07 11:15:20.225 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:17:26.553 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:17:36.905 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:17:41.372 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:18:22.515 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:19:04.626 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:19:08.643 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:20:09.005 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:20:40.273 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:20:57.084 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:21:14.903 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:21:45.569 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:22:15.136 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:22:20.403 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:22:26.759 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:22:38.527 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:23:05.393 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:23:13.530 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:23:15.268 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:23:20.770 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:23:22.972 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:23:40.994 [error] An unknown error occurred. Please consult the log for more details.
+2024-05-07 11:23:44.915 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:24:03.234 [error] [Extension Host] Received response message without id. No further error information provided.
+2024-05-07 11:25:47.976 [error] [text file model] handleSaveError(77) - exit - resulted in a save error: Error: Unable to write file '/srv/http/todo-json-fehler/todo-json-fehler/index.html' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/srv/http/todo-json-fehler/todo-json-fehler/index.html') file:///srv/http/todo-json-fehler/todo-json-fehler/index.html
+2024-05-07 11:25:49.854 [error] [text file model] handleSaveError(78) - exit - resulted in a save error: Error: Unable to write file '/srv/http/todo-json-fehler/todo-json-fehler/index.html' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/srv/http/todo-json-fehler/todo-json-fehler/index.html') file:///srv/http/todo-json-fehler/todo-json-fehler/index.html
+2024-05-07 11:25:51.143 [error] [text file model] handleSaveError(78) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///srv/http/todo-json-fehler/todo-json-fehler/index.html
+2024-05-07 11:25:52.627 [error] [text file model] handleSaveError(78) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///srv/http/todo-json-fehler/todo-json-fehler/index.html
+2024-05-07 11:26:03.150 [error] [text file model] handleSaveError(78) - exit - resulted in a save error: Error: Unable to write file '/srv/http/todo-json-fehler/todo-json-fehler/index.html' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/srv/http/todo-json-fehler/todo-json-fehler/index.html') file:///srv/http/todo-json-fehler/todo-json-fehler/index.html
+2024-05-07 11:26:07.148 [error] [text file model] handleSaveError(78) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///srv/http/todo-json-fehler/todo-json-fehler/index.html

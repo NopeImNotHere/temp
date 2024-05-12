@@ -1,0 +1,50 @@
+2024-05-08 07:36:21.989 [info] Getting Manifest... devsense.composer-php-vscode
+2024-05-08 07:36:21.993 [info] Getting Manifest... devsense.phptools-vscode
+2024-05-08 07:36:21.994 [info] Getting Manifest... devsense.profiler-php-vscode
+2024-05-08 07:36:22.494 [info] Installing extension: devsense.profiler-php-vscode
+2024-05-08 07:36:22.495 [info] Installing extension: devsense.composer-php-vscode
+2024-05-08 07:36:22.572 [info] Installing extension: devsense.phptools-vscode
+2024-05-08 07:36:23.300 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-05-08 07:36:23.311 [info] Extension signature verification is not done: devsense.profiler-php-vscode
+2024-05-08 07:36:23.340 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-05-08 07:36:23.342 [info] Extension signature verification is not done: devsense.composer-php-vscode
+2024-05-08 07:36:23.365 [info] Extracted extension to file:///home/ninh/.vscode-oss/extensions/devsense.profiler-php-vscode-1.46.15395-universal: devsense.profiler-php-vscode
+2024-05-08 07:36:23.371 [info] Renamed to /home/ninh/.vscode-oss/extensions/devsense.profiler-php-vscode-1.46.15395-universal
+2024-05-08 07:36:23.371 [info] Extracted extension to file:///home/ninh/.vscode-oss/extensions/devsense.composer-php-vscode-1.46.15395-universal: devsense.composer-php-vscode
+2024-05-08 07:36:23.373 [info] Extracting extension completed. devsense.profiler-php-vscode
+2024-05-08 07:36:23.375 [info] Renamed to /home/ninh/.vscode-oss/extensions/devsense.composer-php-vscode-1.46.15395-universal
+2024-05-08 07:36:23.378 [info] Extracting extension completed. devsense.composer-php-vscode
+2024-05-08 07:36:23.400 [info] Extension installed successfully: devsense.profiler-php-vscode
+2024-05-08 07:36:23.405 [info] Marked extension as uninstalled devsense.profiler-php-vscode-1.45.15272-universal
+2024-05-08 07:36:23.410 [info] Extension installed successfully: devsense.composer-php-vscode
+2024-05-08 07:36:23.416 [info] Marked extension as uninstalled devsense.composer-php-vscode-1.45.15272-universal
+2024-05-08 07:36:23.457 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)
+2024-05-08 07:36:38.712 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-05-08 07:36:38.713 [info] Extension signature verification is not done: devsense.phptools-vscode
+2024-05-08 07:36:38.960 [info] Extracted extension to file:///home/ninh/.vscode-oss/extensions/devsense.phptools-vscode-1.46.15395-linux-x64: devsense.phptools-vscode
+2024-05-08 07:36:38.968 [info] Renamed to /home/ninh/.vscode-oss/extensions/devsense.phptools-vscode-1.46.15395-linux-x64
+2024-05-08 07:36:38.971 [info] Extracting extension completed. devsense.phptools-vscode
+2024-05-08 07:36:38.980 [info] Extension installed successfully: devsense.phptools-vscode
+2024-05-08 07:36:38.984 [info] Marked extension as uninstalled devsense.phptools-vscode-1.45.15272-linux-x64
+2024-05-08 07:36:39.053 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)

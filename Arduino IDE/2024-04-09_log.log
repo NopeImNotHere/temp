@@ -1,0 +1,402 @@
+2024-04-09 21:19:40 Arduino IDE 2.3.2
+2024-04-09 21:19:40 Checking for frontend application configuration customizations. Module path: /opt/arduino-ide/resources/app/lib/backend/electron-main.js, destination 'package.json': /opt/arduino-ide/resources/app/package.json
+2024-04-09 21:19:40 Setting 'theia.frontend.config.appVersion' application configuration value to: "2.3.2" (type of string)
+2024-04-09 21:19:40 Setting 'theia.frontend.config.cliVersion' application configuration value to: "0.35.3" (type of string)
+2024-04-09 21:19:40 Setting 'theia.frontend.config.buildDate' application configuration value to: "2024-02-20T09:54:08.669Z" (type of string)
+2024-04-09 21:19:40 Frontend application configuration after modifications: {"applicationName":"Arduino IDE","defaultTheme":{"light":"arduino-theme","dark":"arduino-theme-dark"},"defaultIconTheme":"none","electron":{"windowOptions":{}},"defaultLocale":"","validatePreferencesSchema":false,"preferences":{"window.title":"${rootName}${activeEditorShort}${appName}","files.autoSave":"afterDelay","editor.minimap.enabled":false,"editor.tabSize":2,"editor.scrollBeyondLastLine":false,"editor.quickSuggestions":{"other":false,"comments":false,"strings":false},"editor.maxTokenizationLineLength":500,"editor.bracketPairColorization.enabled":false,"breadcrumbs.enabled":false,"workbench.tree.renderIndentGuides":"none","explorer.compactFolders":false},"appVersion":"2.3.2","cliVersion":"0.35.3","buildDate":"2024-02-20T09:54:08.669Z"}
+2024-04-09 21:19:40 Starting backend process. PID: 39175
+2024-04-09 21:19:41 Using browser-only version of superagent in non-browser environment
+2024-04-09 21:19:41 Configuration directory URI: 'file:///home/ninh/.arduinoIDE'
+2024-04-09 21:19:41 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2024-04-09 21:19:41 2024-04-09T19:19:41.286Z root INFO Backend Object.initialize: 4.1 ms [Finished 0.421 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.287Z root INFO Backend Object.configure: 3.0 ms [Finished 0.421 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.287Z root INFO Backend s.onStart: 1.7 ms [Finished 0.421 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.287Z root INFO Backend s.configure: 0.3 ms [Finished 0.442 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.288Z root INFO Backend d.onStart: 0.2 ms [Finished 0.442 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.288Z root INFO Backend d.configure: 0.1 ms [Finished 0.442 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.289Z root INFO Backend d.initialize: 20.6 ms [Finished 0.442 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.289Z root INFO Backend c.onStart: 0.2 ms [Finished 0.442 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.289Z root INFO Backend a.configure: 0.5 ms [Finished 0.443 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.290Z config INFO >>> Initializing CLI configuration...
+2024-04-09 21:19:41 2024-04-09T19:19:41.291Z root INFO Backend c.initialize: 0.4 ms [Finished 0.443 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.291Z root INFO Backend R.onStart: 0.6 ms [Finished 0.443 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z config INFO Loading CLI configuration from /home/ninh/.arduinoIDE/arduino-cli.yaml...
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z daemon INFO Starting daemon from /opt/arduino-ide/resources/app/lib/backend/resources/arduino-cli...
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend a.initialize: 0.4 ms [Finished 0.444 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend w.onStart: 0.7 ms [Finished 0.444 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend r.configure: 1.3 ms [Finished 0.444 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z discovery-log INFO start
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z discovery-log INFO start new deferred
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend d.initialize: 0.3 ms [Finished 0.445 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend y.onStart: 1.9 ms [Finished 0.447 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend r.configure: 1.8 ms [Finished 0.447 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend a.onStart: 0.4 ms [Finished 0.448 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend h.configure: 0.3 ms [Finished 0.448 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend s.configure: 0.1 ms [Finished 0.448 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.292Z root INFO Backend l.configure: 0.1 ms [Finished 0.448 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.294Z root INFO Theia app listening on http://127.0.0.1:37031.
+2024-04-09 21:19:41 2024-04-09T19:19:41.294Z root INFO Finished starting backend application: 1.7 ms [Finished 0.449 s after backend start]
+2024-04-09 21:19:41 2024-04-09T19:19:41.305Z root WARN The local plugin referenced by local-dir:/home/ninh/.arduinoIDE/plugins does not exist.
+2024-04-09 21:19:41 2024-04-09T19:19:41.305Z root WARN The local plugin referenced by local-dir:/home/ninh/.arduinoIDE/extensions does not exist.
+2024-04-09 21:19:41 2024-04-09T19:19:41.310Z config INFO Loading CLI configuration from /home/ninh/.arduinoIDE/arduino-cli.yaml...
+2024-04-09 21:19:41 2024-04-09T19:19:41.315Z daemon INFO time="2024-04-09T21:19:41+02:00" level=info msg="Using config file: /home/ninh/.arduinoIDE/arduino-cli.yaml"
+time="2024-04-09T21:19:41+02:00" level=info msg="arduino-cli version 0.35.3"
+time="2024-04-09T21:19:41+02:00" level=info msg="Executing `arduino-cli daemon`"
+Daemon is now listening on 127.0.0.1:45615
+{"IP":"127.0.0.1","Port":"45615"}
+2024-04-09 21:19:41 2024-04-09T19:19:41.315Z daemon INFO Daemon is running.
+2024-04-09 21:19:41 2024-04-09T19:19:41.325Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":[]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"data":"/home/ninh/.arduino15","downloads":"/home/ninh/.arduino15/staging","user":"/home/ninh/Arduino"},"library":{"enable_unsafe_install":false},"logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2024-04-09 21:19:41 2024-04-09T19:19:41.325Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2024-04-09 21:19:41 2024-04-09T19:19:41.325Z config INFO Loaded the CLI configuration.
+2024-04-09 21:19:41 2024-04-09T19:19:41.328Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/ninh/.arduino15","sketchDirUri":"file:///home/ninh/Arduino","additionalUrls":[],"network":"none","locale":"en"}
+2024-04-09 21:19:41 2024-04-09T19:19:41.328Z config INFO Validating the CLI configuration...
+2024-04-09 21:19:41 2024-04-09T19:19:41.328Z config INFO The CLI config is valid.
+2024-04-09 21:19:41 2024-04-09T19:19:41.328Z config INFO <<< Initialized the CLI configuration.
+2024-04-09 21:19:41 2024-04-09T19:19:41.333Z daemon INFO time="2024-04-09T21:19:41+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:19:41+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-04-09 21:19:41 2024-04-09T19:19:41.336Z root ERROR Detected an error response during the gRPC core client initialization: code: 3, message: Error downloading index 'https://downloads.arduino.cc/libraries/library_index.tar.bz2': Get "https://downloads.arduino.cc/libraries/library_index.tar.bz2": dial tcp: lookup downloads.arduino.cc on [::1]:53: read udp [::1]:54446->[::1]:53: read: connection refused
+2024-04-09 21:19:41 2024-04-09T19:19:41.336Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+2024-04-09 21:19:41 2024-04-09T19:19:41.336Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+2024-04-09 21:19:41 2024-04-09T19:19:41.336Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+2024-04-09 21:19:41 2024-04-09T19:19:41.337Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+2024-04-09 21:19:41 2024-04-09T19:19:41.337Z daemon INFO time="2024-04-09T21:19:41+02:00" level=info msg="Loading hardware from: /home/ninh/.arduino15/packages"
+time="2024-04-09T21:19:41+02:00" level=info msg="Loading libraries index file" index=/home/ninh/.arduino15/library_index.json
+time="2024-04-09T21:19:41+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/.arduino15/libraries location=ide
+time="2024-04-09T21:19:41+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/Arduino/libraries location=user
+2024-04-09 21:19:41 2024-04-09T19:19:41.340Z root ERROR The primary packages indexes are missing. Running indexes update before initializing the core gRPC client The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+2024-04-09 21:19:41 2024-04-09T19:19:41.341Z daemon INFO time="2024-04-09T21:19:41+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:19:41+02:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2024-04-09T21:19:41+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2024-04-09T21:19:41+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-04-09 21:19:41 2024-04-09T19:19:41.341Z root INFO core-client-provider [platform-index] Downloading index: package_index.tar.bz2
+
+2024-04-09 21:19:41 2024-04-09T19:19:41.342Z root INFO core-client-provider [library-index] Downloading index: library_index.tar.bz2
+
+2024-04-09 21:19:41 2024-04-09T19:19:41.343Z root ERROR Failed to update platform, library indexes. Error: 13 INTERNAL: Some indexes could not be updated.
+    at t.callErrorFromStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:763317)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:790934)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:783958)
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:870080
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeServerStreamRequest (/opt/arduino-ide/resources/app/lib/backend/main.js:2:790701)
+    at s.updateIndex (/opt/arduino-ide/resources/app/lib/backend/main.js:2:854977)
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:623589
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:623937
+    at new Promise (<anonymous>)
+    at E.doUpdateIndex (/opt/arduino-ide/resources/app/lib/backend/main.js:2:623916)
+    at E.updatePlatformIndex (/opt/arduino-ide/resources/app/lib/backend/main.js:2:623561)
+    at E.updateIndex (/opt/arduino-ide/resources/app/lib/backend/main.js:2:622929)
+    at E.initInstanceWithFallback (/opt/arduino-ide/resources/app/lib/backend/main.js:2:621173)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-09 21:19:41 2024-04-09T19:19:41.344Z daemon INFO time="2024-04-09T21:19:41+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:19:41+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-04-09 21:19:41 2024-04-09T19:19:41.345Z root ERROR Detected an error response during the gRPC core client initialization: code: 3, message: Error downloading index 'https://downloads.arduino.cc/libraries/library_index.tar.bz2': Get "https://downloads.arduino.cc/libraries/library_index.tar.bz2": dial tcp: lookup downloads.arduino.cc on [::1]:53: read udp [::1]:37342->[::1]:53: read: connection refused
+2024-04-09 21:19:41 2024-04-09T19:19:41.345Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+2024-04-09 21:19:41 2024-04-09T19:19:41.345Z daemon INFO time="2024-04-09T21:19:41+02:00" level=info msg="Loading hardware from: /home/ninh/.arduino15/packages"
+time="2024-04-09T21:19:41+02:00" level=info msg="Loading libraries index file" index=/home/ninh/.arduino15/library_index.json
+time="2024-04-09T21:19:41+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/.arduino15/libraries location=ide
+time="2024-04-09T21:19:41+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/Arduino/libraries location=user
+2024-04-09 21:19:41 2024-04-09T19:19:41.345Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+2024-04-09 21:19:41 2024-04-09T19:19:41.345Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+2024-04-09 21:19:41 2024-04-09T19:19:41.345Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+2024-04-09 21:19:41 2024-04-09T19:19:41.346Z root ERROR Uncaught Exception:  Error: The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+2024-04-09 21:19:41 2024-04-09T19:19:41.346Z root ERROR Error: The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:622733
+    at E.evaluateErrorStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:622749)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async a.<anonymous> (/opt/arduino-ide/resources/app/lib/backend/main.js:2:622419)
+2024-04-09 21:19:41 2024-04-09T19:19:41.350Z root INFO Resolve plugins list: 58.5 ms [Finished 0.505 s after backend start]
+2024-04-09 21:19:42 2024-04-09T19:19:42.055Z root INFO Deploy plugins list: 58.5 ms [Finished 1.210 s after backend start]
+2024-04-09 21:19:42 Opening channel for service path '/services/electron-window'.
+2024-04-09 21:19:42 Opening channel for service path '/services/ide-updater'.
+2024-04-09 21:19:42 2024-04-09T19:19:42.569Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 203.9 ms [Finished 1.191 s after frontend start]
+2024-04-09 21:19:42 2024-04-09T19:19:42.574Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2024-04-09 21:20:27 Closing channel on service path '/services/electron-window'.
+2024-04-09 21:20:27 Closing channel on service path '/services/ide-updater'.
+2024-04-09 21:20:27 Stored workspaces roots: 
+2024-04-09 21:20:27 No sketches were scheduled for deletion.
+2024-04-09 21:21:59 Arduino IDE 2.3.2
+2024-04-09 21:21:59 Checking for frontend application configuration customizations. Module path: /opt/arduino-ide/resources/app/lib/backend/electron-main.js, destination 'package.json': /opt/arduino-ide/resources/app/package.json
+2024-04-09 21:21:59 Setting 'theia.frontend.config.appVersion' application configuration value to: "2.3.2" (type of string)
+2024-04-09 21:21:59 Setting 'theia.frontend.config.cliVersion' application configuration value to: "0.35.3" (type of string)
+2024-04-09 21:21:59 Setting 'theia.frontend.config.buildDate' application configuration value to: "2024-02-20T09:54:08.669Z" (type of string)
+2024-04-09 21:21:59 Frontend application configuration after modifications: {"applicationName":"Arduino IDE","defaultTheme":{"light":"arduino-theme","dark":"arduino-theme-dark"},"defaultIconTheme":"none","electron":{"windowOptions":{}},"defaultLocale":"","validatePreferencesSchema":false,"preferences":{"window.title":"${rootName}${activeEditorShort}${appName}","files.autoSave":"afterDelay","editor.minimap.enabled":false,"editor.tabSize":2,"editor.scrollBeyondLastLine":false,"editor.quickSuggestions":{"other":false,"comments":false,"strings":false},"editor.maxTokenizationLineLength":500,"editor.bracketPairColorization.enabled":false,"breadcrumbs.enabled":false,"workbench.tree.renderIndentGuides":"none","explorer.compactFolders":false},"appVersion":"2.3.2","cliVersion":"0.35.3","buildDate":"2024-02-20T09:54:08.669Z"}
+2024-04-09 21:21:59 Starting backend process. PID: 40585
+2024-04-09 21:21:59 Using browser-only version of superagent in non-browser environment
+2024-04-09 21:21:59 Configuration directory URI: 'file:///home/ninh/.arduinoIDE'
+2024-04-09 21:21:59 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2024-04-09 21:21:59 2024-04-09T19:21:59.674Z root INFO Backend Object.initialize: 5.3 ms [Finished 0.430 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.674Z root INFO Backend Object.configure: 4.3 ms [Finished 0.430 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.674Z root INFO Backend s.onStart: 1.7 ms [Finished 0.430 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.675Z root INFO Backend s.configure: 0.5 ms [Finished 0.456 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.675Z root INFO Backend d.onStart: 0.3 ms [Finished 0.456 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.676Z root INFO Backend d.configure: 0.1 ms [Finished 0.457 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.677Z root INFO Backend d.initialize: 26.2 ms [Finished 0.457 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.677Z root INFO Backend c.onStart: 0.3 ms [Finished 0.457 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.677Z root INFO Backend a.configure: 0.4 ms [Finished 0.457 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.678Z config INFO >>> Initializing CLI configuration...
+2024-04-09 21:21:59 2024-04-09T19:21:59.679Z root INFO Backend c.initialize: 0.3 ms [Finished 0.458 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.679Z root INFO Backend R.onStart: 0.7 ms [Finished 0.458 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.679Z config INFO Loading CLI configuration from /home/ninh/.arduinoIDE/arduino-cli.yaml...
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z daemon INFO Starting daemon from /opt/arduino-ide/resources/app/lib/backend/resources/arduino-cli...
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend a.initialize: 0.3 ms [Finished 0.459 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend w.onStart: 0.8 ms [Finished 0.459 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend r.configure: 1.4 ms [Finished 0.459 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z discovery-log INFO start
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z discovery-log INFO start new deferred
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend d.initialize: 0.3 ms [Finished 0.460 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend y.onStart: 1.8 ms [Finished 0.461 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend r.configure: 1.6 ms [Finished 0.461 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend a.onStart: 0.4 ms [Finished 0.462 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend h.configure: 0.3 ms [Finished 0.462 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend s.configure: 0.1 ms [Finished 0.463 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.680Z root INFO Backend l.configure: 0.0 ms [Finished 0.463 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.681Z root INFO Theia app listening on http://127.0.0.1:45403.
+2024-04-09 21:21:59 2024-04-09T19:21:59.682Z root INFO Finished starting backend application: 1.8 ms [Finished 0.464 s after backend start]
+2024-04-09 21:21:59 2024-04-09T19:21:59.688Z root WARN The local plugin referenced by local-dir:/home/ninh/.arduinoIDE/plugins does not exist.
+2024-04-09 21:21:59 2024-04-09T19:21:59.688Z root WARN The local plugin referenced by local-dir:/home/ninh/.arduinoIDE/extensions does not exist.
+2024-04-09 21:21:59 2024-04-09T19:21:59.695Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":[]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"data":"/home/ninh/.arduino15","downloads":"/home/ninh/.arduino15/staging","user":"/home/ninh/Arduino"},"library":{"enable_unsafe_install":false},"logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2024-04-09 21:21:59 2024-04-09T19:21:59.695Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2024-04-09 21:21:59 2024-04-09T19:21:59.695Z config INFO Loaded the CLI configuration.
+2024-04-09 21:21:59 2024-04-09T19:21:59.700Z daemon INFO time="2024-04-09T21:21:59+02:00" level=info msg="Using config file: /home/ninh/.arduinoIDE/arduino-cli.yaml"
+time="2024-04-09T21:21:59+02:00" level=info msg="arduino-cli version 0.35.3"
+time="2024-04-09T21:21:59+02:00" level=info msg="Executing `arduino-cli daemon`"
+Daemon is now listening on 127.0.0.1:44817
+{"IP":"127.0.0.1","Port":"44817"}
+2024-04-09 21:21:59 2024-04-09T19:21:59.701Z daemon INFO Daemon is running.
+2024-04-09 21:21:59 2024-04-09T19:21:59.701Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/ninh/.arduino15","sketchDirUri":"file:///home/ninh/Arduino","additionalUrls":[],"network":"none","locale":"en"}
+2024-04-09 21:21:59 2024-04-09T19:21:59.701Z config INFO Validating the CLI configuration...
+2024-04-09 21:21:59 2024-04-09T19:21:59.705Z config INFO The CLI config is valid.
+2024-04-09 21:21:59 2024-04-09T19:21:59.705Z config INFO <<< Initialized the CLI configuration.
+2024-04-09 21:21:59 2024-04-09T19:21:59.716Z daemon INFO time="2024-04-09T21:21:59+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:21:59+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-04-09 21:21:59 2024-04-09T19:21:59.718Z root ERROR Detected an error response during the gRPC core client initialization: code: 3, message: Error downloading index 'https://downloads.arduino.cc/libraries/library_index.tar.bz2': Get "https://downloads.arduino.cc/libraries/library_index.tar.bz2": dial tcp: lookup downloads.arduino.cc on [::1]:53: read udp [::1]:47709->[::1]:53: read: connection refused
+2024-04-09 21:21:59 2024-04-09T19:21:59.719Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+2024-04-09 21:21:59 2024-04-09T19:21:59.719Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+2024-04-09 21:21:59 2024-04-09T19:21:59.719Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+2024-04-09 21:21:59 2024-04-09T19:21:59.719Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+2024-04-09 21:21:59 2024-04-09T19:21:59.720Z daemon INFO time="2024-04-09T21:21:59+02:00" level=info msg="Loading hardware from: /home/ninh/.arduino15/packages"
+time="2024-04-09T21:21:59+02:00" level=info msg="Loading libraries index file" index=/home/ninh/.arduino15/library_index.json
+time="2024-04-09T21:21:59+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/.arduino15/libraries location=ide
+time="2024-04-09T21:21:59+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/Arduino/libraries location=user
+2024-04-09 21:21:59 2024-04-09T19:21:59.723Z root ERROR The primary packages indexes are missing. Running indexes update before initializing the core gRPC client The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+2024-04-09 21:21:59 2024-04-09T19:21:59.724Z daemon INFO time="2024-04-09T21:21:59+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:21:59+02:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2024-04-09T21:21:59+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+time="2024-04-09T21:21:59+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2024-04-09 21:21:59 2024-04-09T19:21:59.725Z root INFO core-client-provider [platform-index] Downloading index: package_index.tar.bz2
+
+2024-04-09 21:21:59 2024-04-09T19:21:59.725Z root INFO core-client-provider [library-index] Downloading index: library_index.tar.bz2
+
+2024-04-09 21:21:59 2024-04-09T19:21:59.726Z root ERROR Failed to update platform, library indexes. Error: 13 INTERNAL: Some indexes could not be updated.
+    at t.callErrorFromStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:763317)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:790934)
+    at Object.onReceiveStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:783958)
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:870080
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeServerStreamRequest (/opt/arduino-ide/resources/app/lib/backend/main.js:2:790701)
+    at s.updateIndex (/opt/arduino-ide/resources/app/lib/backend/main.js:2:854977)
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:623589
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:623937
+    at new Promise (<anonymous>)
+    at E.doUpdateIndex (/opt/arduino-ide/resources/app/lib/backend/main.js:2:623916)
+    at E.updatePlatformIndex (/opt/arduino-ide/resources/app/lib/backend/main.js:2:623561)
+    at E.updateIndex (/opt/arduino-ide/resources/app/lib/backend/main.js:2:622929)
+    at E.initInstanceWithFallback (/opt/arduino-ide/resources/app/lib/backend/main.js:2:621173)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-09 21:21:59 2024-04-09T19:21:59.727Z daemon INFO time="2024-04-09T21:21:59+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:21:59+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-04-09 21:21:59 2024-04-09T19:21:59.729Z root ERROR Detected an error response during the gRPC core client initialization: code: 3, message: Error downloading index 'https://downloads.arduino.cc/libraries/library_index.tar.bz2': Get "https://downloads.arduino.cc/libraries/library_index.tar.bz2": dial tcp: lookup downloads.arduino.cc on [::1]:53: read udp [::1]:57003->[::1]:53: read: connection refused
+2024-04-09 21:21:59 2024-04-09T19:21:59.729Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+2024-04-09 21:21:59 2024-04-09T19:21:59.729Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+2024-04-09 21:21:59 2024-04-09T19:21:59.729Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+2024-04-09 21:21:59 2024-04-09T19:21:59.729Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+2024-04-09 21:21:59 2024-04-09T19:21:59.729Z daemon INFO time="2024-04-09T21:21:59+02:00" level=info msg="Loading hardware from: /home/ninh/.arduino15/packages"
+time="2024-04-09T21:21:59+02:00" level=info msg="Loading libraries index file" index=/home/ninh/.arduino15/library_index.json
+time="2024-04-09T21:21:59+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/.arduino15/libraries location=ide
+time="2024-04-09T21:21:59+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/Arduino/libraries location=user
+2024-04-09 21:21:59 2024-04-09T19:21:59.730Z root ERROR Uncaught Exception:  Error: The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+2024-04-09 21:21:59 2024-04-09T19:21:59.730Z root ERROR Error: The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+    at /opt/arduino-ide/resources/app/lib/backend/main.js:2:622733
+    at E.evaluateErrorStatus (/opt/arduino-ide/resources/app/lib/backend/main.js:2:622749)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async a.<anonymous> (/opt/arduino-ide/resources/app/lib/backend/main.js:2:622419)
+2024-04-09 21:21:59 2024-04-09T19:21:59.738Z root INFO Resolve plugins list: 58.8 ms [Finished 0.520 s after backend start]
+2024-04-09 21:22:00 2024-04-09T19:22:00.422Z root INFO Deploy plugins list: 58.8 ms [Finished 1.205 s after backend start]
+2024-04-09 21:22:00 Opening channel for service path '/services/electron-window'.
+2024-04-09 21:22:00 Opening channel for service path '/services/ide-updater'.
+2024-04-09 21:22:00 2024-04-09T19:22:00.944Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 230.3 ms [Finished 1.197 s after frontend start]
+2024-04-09 21:22:00 2024-04-09T19:22:00.948Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2024-04-09 21:22:18 Closing channel on service path '/services/electron-window'.
+2024-04-09 21:22:18 Closing channel on service path '/services/ide-updater'.
+2024-04-09 21:22:18 Stored workspaces roots: 
+2024-04-09 21:22:18 No sketches were scheduled for deletion.
+2024-04-09 21:24:17 Arduino IDE 2.3.2
+2024-04-09 21:24:17 Checking for frontend application configuration customizations. Module path: /tmp/.mount_ArduinvyKohx/resources/app/lib/backend/electron-main.js, destination 'package.json': /tmp/.mount_ArduinvyKohx/resources/app/package.json
+2024-04-09 21:24:17 Setting 'theia.frontend.config.appVersion' application configuration value to: "2.3.2" (type of string)
+2024-04-09 21:24:17 Setting 'theia.frontend.config.cliVersion' application configuration value to: "0.35.3" (type of string)
+2024-04-09 21:24:17 Setting 'theia.frontend.config.buildDate' application configuration value to: "2024-02-20T09:54:08.669Z" (type of string)
+2024-04-09 21:24:17 Frontend application configuration after modifications: {"applicationName":"Arduino IDE","defaultTheme":{"light":"arduino-theme","dark":"arduino-theme-dark"},"defaultIconTheme":"none","electron":{"windowOptions":{}},"defaultLocale":"","validatePreferencesSchema":false,"preferences":{"window.title":"${rootName}${activeEditorShort}${appName}","files.autoSave":"afterDelay","editor.minimap.enabled":false,"editor.tabSize":2,"editor.scrollBeyondLastLine":false,"editor.quickSuggestions":{"other":false,"comments":false,"strings":false},"editor.maxTokenizationLineLength":500,"editor.bracketPairColorization.enabled":false,"breadcrumbs.enabled":false,"workbench.tree.renderIndentGuides":"none","explorer.compactFolders":false},"appVersion":"2.3.2","cliVersion":"0.35.3","buildDate":"2024-02-20T09:54:08.669Z"}
+2024-04-09 21:24:17 Starting backend process. PID: 42118
+2024-04-09 21:24:17 Using browser-only version of superagent in non-browser environment
+2024-04-09 21:24:17 Configuration directory URI: 'file:///home/ninh/.arduinoIDE'
+2024-04-09 21:24:17 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2024-04-09 21:24:17 2024-04-09T19:24:17.936Z root INFO Backend Object.initialize: 4.6 ms [Finished 0.490 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.940Z root INFO Backend Object.configure: 3.8 ms [Finished 0.490 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.940Z root INFO Backend s.onStart: 1.3 ms [Finished 0.490 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.940Z root INFO Backend s.configure: 0.3 ms [Finished 0.512 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.941Z root INFO Backend d.onStart: 0.2 ms [Finished 0.512 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.942Z root INFO Backend d.configure: 0.1 ms [Finished 0.512 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.942Z root INFO Backend d.initialize: 21.8 ms [Finished 0.512 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.942Z root INFO Backend c.onStart: 0.2 ms [Finished 0.512 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.943Z root INFO Backend a.configure: 4.0 ms [Finished 0.517 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.944Z config INFO >>> Initializing CLI configuration...
+2024-04-09 21:24:17 2024-04-09T19:24:17.944Z root INFO Backend c.initialize: 0.7 ms [Finished 0.517 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.944Z root INFO Backend R.onStart: 0.6 ms [Finished 0.517 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.944Z config INFO Loading CLI configuration from /home/ninh/.arduinoIDE/arduino-cli.yaml...
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z daemon INFO Starting daemon from /tmp/.mount_ArduinvyKohx/resources/app/lib/backend/resources/arduino-cli...
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend a.initialize: 0.4 ms [Finished 0.518 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend w.onStart: 0.8 ms [Finished 0.519 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend r.configure: 1.4 ms [Finished 0.519 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z discovery-log INFO start
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z discovery-log INFO start new deferred
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend d.initialize: 0.4 ms [Finished 0.519 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend y.onStart: 1.5 ms [Finished 0.520 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend r.configure: 1.3 ms [Finished 0.520 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend a.onStart: 0.4 ms [Finished 0.521 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend h.configure: 0.4 ms [Finished 0.521 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend s.configure: 0.1 ms [Finished 0.521 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.945Z root INFO Backend l.configure: 0.0 ms [Finished 0.522 s after backend start]
+2024-04-09 21:24:17 2024-04-09T19:24:17.947Z root INFO Theia app listening on http://127.0.0.1:39765.
+2024-04-09 21:24:17 2024-04-09T19:24:17.947Z root INFO Finished starting backend application: 1.7 ms [Finished 0.523 s after backend start]
+2024-04-09 21:24:18 2024-04-09T19:24:17.957Z root WARN The local plugin referenced by local-dir:/home/ninh/.arduinoIDE/plugins does not exist.
+2024-04-09 21:24:18 2024-04-09T19:24:17.958Z root WARN The local plugin referenced by local-dir:/home/ninh/.arduinoIDE/extensions does not exist.
+2024-04-09 21:24:18 2024-04-09T19:24:17.960Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":[]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"data":"/home/ninh/.arduino15","downloads":"/home/ninh/.arduino15/staging","user":"/home/ninh/Arduino"},"library":{"enable_unsafe_install":false},"logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2024-04-09 21:24:18 2024-04-09T19:24:17.960Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2024-04-09 21:24:18 2024-04-09T19:24:17.960Z config INFO Loaded the CLI configuration.
+2024-04-09 21:24:18 2024-04-09T19:24:17.961Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/ninh/.arduino15","sketchDirUri":"file:///home/ninh/Arduino","additionalUrls":[],"network":"none","locale":"en"}
+2024-04-09 21:24:18 2024-04-09T19:24:17.961Z config INFO Validating the CLI configuration...
+2024-04-09 21:24:18 2024-04-09T19:24:17.961Z config INFO The CLI config is valid.
+2024-04-09 21:24:18 2024-04-09T19:24:17.961Z config INFO <<< Initialized the CLI configuration.
+2024-04-09 21:24:18 2024-04-09T19:24:18.103Z root INFO Resolve plugins list: 158.5 ms [Finished 0.679 s after backend start]
+2024-04-09 21:24:18 2024-04-09T19:24:18.196Z daemon INFO time="2024-04-09T21:24:18+02:00" level=info msg="Using config file: /home/ninh/.arduinoIDE/arduino-cli.yaml"
+time="2024-04-09T21:24:18+02:00" level=info msg="arduino-cli version 0.35.3"
+time="2024-04-09T21:24:18+02:00" level=info msg="Executing `arduino-cli daemon`"
+2024-04-09 21:24:18 2024-04-09T19:24:18.206Z daemon INFO Daemon is now listening on 127.0.0.1:42813
+{"IP":"127.0.0.1","Port":"42813"}
+2024-04-09 21:24:18 2024-04-09T19:24:18.206Z daemon INFO Daemon is running.
+2024-04-09 21:24:18 2024-04-09T19:24:18.292Z daemon INFO time="2024-04-09T21:24:18+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:24:18+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+time="2024-04-09T21:24:18+02:00" level=info msg="Loading hardware from: /home/ninh/.arduino15/packages"
+time="2024-04-09T21:24:18+02:00" level=info msg="Loading libraries index file" index=/home/ninh/.arduino15/library_index.json
+time="2024-04-09T21:24:18+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/.arduino15/libraries location=ide
+time="2024-04-09T21:24:18+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/Arduino/libraries location=user
+2024-04-09 21:24:18 2024-04-09T19:24:18.294Z root ERROR Detected an error response during the gRPC core client initialization: code: 3, message: Error downloading index 'https://downloads.arduino.cc/libraries/library_index.tar.bz2': Get "https://downloads.arduino.cc/libraries/library_index.tar.bz2": dial tcp: lookup downloads.arduino.cc on [::1]:53: read udp [::1]:44126->[::1]:53: read: connection refused
+2024-04-09 21:24:18 2024-04-09T19:24:18.295Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+2024-04-09 21:24:18 2024-04-09T19:24:18.295Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+2024-04-09 21:24:18 2024-04-09T19:24:18.295Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+2024-04-09 21:24:18 2024-04-09T19:24:18.295Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+2024-04-09 21:24:18 2024-04-09T19:24:18.299Z root ERROR The primary packages indexes are missing. Running indexes update before initializing the core gRPC client The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+2024-04-09 21:24:18 2024-04-09T19:24:18.301Z daemon INFO time="2024-04-09T21:24:18+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:24:18+02:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2024-04-09T21:24:18+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+time="2024-04-09T21:24:18+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+2024-04-09 21:24:18 2024-04-09T19:24:18.302Z root INFO core-client-provider [library-index] Downloading index: library_index.tar.bz2
+
+2024-04-09 21:24:18 2024-04-09T19:24:18.303Z root INFO core-client-provider [platform-index] Downloading index: package_index.tar.bz2
+
+2024-04-09 21:24:18 2024-04-09T19:24:18.304Z root ERROR Failed to update platform, library indexes. Error: 13 INTERNAL: Some indexes could not be updated.
+    at t.callErrorFromStatus (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:763317)
+    at Object.onReceiveStatus (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:790934)
+    at Object.onReceiveStatus (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:783958)
+    at /tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:870080
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+for call at
+    at s.makeServerStreamRequest (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:790701)
+    at s.updateIndex (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:854977)
+    at /tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:623589
+    at /tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:623937
+    at new Promise (<anonymous>)
+    at E.doUpdateIndex (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:623916)
+    at E.updatePlatformIndex (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:623561)
+    at E.updateIndex (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:622929)
+    at E.initInstanceWithFallback (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:621173)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-04-09 21:24:18 2024-04-09T19:24:18.307Z daemon INFO time="2024-04-09T21:24:18+02:00" level=info msg="Updating libraries index"
+time="2024-04-09T21:24:18+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2024-04-09 21:24:18 2024-04-09T19:24:18.307Z daemon INFO time="2024-04-09T21:24:18+02:00" level=info msg="Loading hardware from: /home/ninh/.arduino15/packages"
+time="2024-04-09T21:24:18+02:00" level=info msg="Loading libraries index file" index=/home/ninh/.arduino15/library_index.json
+time="2024-04-09T21:24:18+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/.arduino15/libraries location=ide
+time="2024-04-09T21:24:18+02:00" level=info msg="Adding libraries dir" dir=/home/ninh/Arduino/libraries location=user
+2024-04-09 21:24:18 2024-04-09T19:24:18.308Z root ERROR Detected an error response during the gRPC core client initialization: code: 3, message: Error downloading index 'https://downloads.arduino.cc/libraries/library_index.tar.bz2': Get "https://downloads.arduino.cc/libraries/library_index.tar.bz2": dial tcp: lookup downloads.arduino.cc on [::1]:53: read udp [::1]:37556->[::1]:53: read: connection refused
+2024-04-09 21:24:18 2024-04-09T19:24:18.308Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+2024-04-09 21:24:18 2024-04-09T19:24:18.308Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+2024-04-09 21:24:18 2024-04-09T19:24:18.309Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+2024-04-09 21:24:18 2024-04-09T19:24:18.309Z root ERROR Detected an error response during the gRPC core client initialization: code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+2024-04-09 21:24:18 2024-04-09T19:24:18.310Z root ERROR Uncaught Exception:  Error: The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+2024-04-09 21:24:18 2024-04-09T19:24:18.310Z root ERROR Error: The index of the cores and libraries must be updated before initializing the core gRPC client.
+The following problems were detected during the gRPC client initialization:
+[platform-index] - code: 9, message: Loading index file: loading json index file /home/ninh/.arduino15/package_index.json: open /home/ninh/.arduino15/package_index.json: no such file or directory
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:serial-discovery not found
+[platform-index] - code: 9, message: Error loading hardware platform: discovery builtin:mdns-discovery not found
+[library-index] - code: 9, message: Loading index file: reading library_index.json: open /home/ninh/.arduino15/library_index.json: no such file or directory
+
+    at /tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:622733
+    at E.evaluateErrorStatus (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:622749)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async a.<anonymous> (/tmp/.mount_ArduinvyKohx/resources/app/lib/backend/main.js:2:622419)
+2024-04-09 21:24:19 2024-04-09T19:24:19.146Z root INFO Deploy plugins list: 158.5 ms [Finished 1.722 s after backend start]
+2024-04-09 21:24:19 Opening channel for service path '/services/electron-window'.
+2024-04-09 21:24:19 Opening channel for service path '/services/ide-updater'.
+2024-04-09 21:24:20 2024-04-09T19:24:20.070Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 264.9 ms [Finished 1.796 s after frontend start]
+2024-04-09 21:24:20 2024-04-09T19:24:20.070Z root WARN A command editor.action.toggleStickyScroll is already registered.

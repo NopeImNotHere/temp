@@ -1,0 +1,19 @@
+2024-05-02 11:52:54.094 [info] Getting Manifest... lkrms.pretty-php
+2024-05-02 11:52:54.712 [info] Installing extension: lkrms.pretty-php
+2024-05-02 11:52:55.577 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-05-02 11:52:55.585 [info] Extension signature verification is not done: lkrms.pretty-php
+2024-05-02 11:52:55.652 [info] Extracted extension to file:///home/ninh/.vscode-oss/extensions/lkrms.pretty-php-0.4.62-universal: lkrms.pretty-php
+2024-05-02 11:52:55.658 [info] Renamed to /home/ninh/.vscode-oss/extensions/lkrms.pretty-php-0.4.62-universal
+2024-05-02 11:52:55.661 [info] Extracting extension completed. lkrms.pretty-php
+2024-05-02 11:52:55.675 [info] Extension installed successfully: lkrms.pretty-php
+2024-05-02 11:52:55.679 [info] Marked extension as uninstalled lkrms.pretty-php-0.4.60-universal
+2024-05-02 11:52:55.750 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30080)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:30195)
+    at i.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36500)
+    at i.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:28946)
+    at async $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:16092)
+    at async K.sb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:108402)

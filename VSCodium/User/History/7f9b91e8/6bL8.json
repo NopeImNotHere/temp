@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "material-icon-theme",
+    "gopls": { "ui.semanticTokens": true }
+}

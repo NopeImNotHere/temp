@@ -1,0 +1,37 @@
+2024-04-22 16:53:31.147 [info] Extension host with pid 1804 started
+2024-04-22 16:53:31.147 [info] Skipping acquiring lock for /home/ninh/.config/VSCodium/User/workspaceStorage/4d75d84e0704a23a6d3a814de64f1c09.
+2024-04-22 16:53:31.230 [info] ExtensionService#_doActivateExtension HTMLHint.vscode-htmlhint, startup: false, activationEvent: 'onFileSystem:file'
+2024-04-22 16:53:31.260 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-22 16:53:31.265 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-04-22 16:53:31.576 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-22 16:53:31.578 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-04-22 16:53:31.591 [info] ExtensionService#_doActivateExtension oouo-diogo-perdigao.docthis, startup: true, activationEvent: '*'
+2024-04-22 16:53:31.669 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-22 16:53:31.694 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-22 16:53:33.653 [info] Eager extensions activated
+2024-04-22 16:53:33.672 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:53:33.674 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:53:33.678 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:53:33.688 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:53:33.692 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:53:33.699 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:53:38.432 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onCommand:npm.packageManager'
+2024-04-22 16:54:01.337 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-22 16:54:01.349 [info] Extension host with pid 1804 exiting with code 0
+2024-04-22 16:54:01.687 [info] Extension host with pid 2173 started
+2024-04-22 16:54:01.687 [info] Skipping acquiring lock for /home/ninh/.config/VSCodium/User/workspaceStorage/4d75d84e0704a23a6d3a814de64f1c09.
+2024-04-22 16:54:01.692 [info] ExtensionService#_doActivateExtension HTMLHint.vscode-htmlhint, startup: false, activationEvent: 'onFileSystem:file'
+2024-04-22 16:54:01.707 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-22 16:54:01.711 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-04-22 16:54:01.733 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onCommand:npm.packageManager'
+2024-04-22 16:54:01.739 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-04-22 16:54:01.740 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: false, activationEvent: '*'
+2024-04-22 16:54:01.746 [info] ExtensionService#_doActivateExtension oouo-diogo-perdigao.docthis, startup: false, activationEvent: '*'
+2024-04-22 16:54:01.995 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-04-22 16:54:02.010 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-04-22 16:54:02.814 [info] Eager extensions activated
+2024-04-22 16:54:02.814 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:54:02.816 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:54:02.821 [info] ExtensionService#_doActivateExtension monokai.theme-monokai-pro-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:54:02.826 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 16:54:02.832 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'

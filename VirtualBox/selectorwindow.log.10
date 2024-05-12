@@ -1,0 +1,21 @@
+00:00:00.500905 VirtualBox GUI VM Selector Window 7.0.14 r161095 linux.amd64 (Jan 19 2024 13:54:29) release log
+00:00:00.500909 Log opened 2024-04-15T14:53:25.835488000Z
+00:00:00.500912 Build Type: release
+00:00:00.500916 OS Product: Linux
+00:00:00.500919 OS Release: 6.8.4-arch1-1
+00:00:00.500921 OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 05 Apr 2024 00:14:23 +0000
+00:00:00.500960 DMI Product Name: XMG CORE 15(M20, GTX 1650xx)
+00:00:00.500973 DMI Product Version: Standard
+00:00:00.500982 Firmware type: UEFI
+00:00:00.501253 Secure Boot: Disabled
+00:00:00.501303 Host RAM: 15407MB (15.0GB) total, 13172MB (12.8GB) available
+00:00:00.501307 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.501309 Process ID: 37019
+00:00:00.501311 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.501348 Qt version: 5.15.13
+00:00:00.502721 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.508973 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.509032 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.257855 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 960x0 x 470x1028
+00:00:04.767725 GUI: UICommon: Handling aboutToQuit request..
+00:00:05.697455 GUI: UICommon: aboutToQuit request handled!

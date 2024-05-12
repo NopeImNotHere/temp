@@ -1,0 +1,5 @@
+2024-05-07 11:31:42.063 [info] update#setState disabled
+2024-05-07 11:31:42.066 [info] update#ctor - updates are disabled as there is no update URL
+2024-05-07 12:03:39.891 [info] Extension host with pid 3787 exited with code: 0, signal: unknown.
+2024-05-07 12:30:15.712 [info] Extension host with pid 28456 exited with code: 15, signal: unknown.
+2024-05-07 12:30:15.712 [error] [UtilityProcess id: 2, type: extensionHost, pid: 28456]: crashed with code 15 and reason 'killed'

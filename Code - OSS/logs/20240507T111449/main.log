@@ -1,0 +1,4 @@
+2024-05-07 11:14:50.041 [info] update#setState disabled
+2024-05-07 11:14:50.042 [info] update#ctor - updates are disabled as there is no update URL
+2024-05-07 11:15:12.412 [info] Extension host with pid 80019 exited with code: 0, signal: unknown.
+2024-05-07 11:29:46.146 [error] [UtilityProcess type: shared-process, pid: 80029]: crashed with code 15 and reason 'killed'

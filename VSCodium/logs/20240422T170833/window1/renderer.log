@@ -1,0 +1,26 @@
+2024-04-22 17:08:34.542 [info] Started local extension host with pid 4557.
+2024-04-22 17:08:37.499 [info] [perf] Render performance baseline is 25ms
+2024-04-22 17:09:21.240 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/script.js' -> '/home/ninh/.config/VSCodium/User/History/-4fd3139b/89QK.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/script.js' -> '/home/ninh/.config/VSCodium/User/History/-4fd3139b/89QK.js'
+    at u.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:56:4347)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:56:4485)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:61:47216)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:61:46281)
+2024-04-22 17:09:33.864 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/script.js' -> '/home/ninh/.config/VSCodium/User/History/-4fd3139b/TEwz.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/script.js' -> '/home/ninh/.config/VSCodium/User/History/-4fd3139b/TEwz.js'
+    at u.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:56:4347)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:56:4485)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:61:47216)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:61:46281)
+2024-04-22 17:15:58.863 [error] Cannot register two commands with the same id: _workbench.openUserSettingsEditor: Error: Cannot register two commands with the same id: _workbench.openUserSettingsEditor
+    at o (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:683:23497)
+    at ge (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2755:48923)
+    at u.value (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2755:49303)
+    at n._deliver (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:89:837)
+    at n._deliverQueue (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:89:928)
+    at n.fire (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:89:1263)
+    at w.updateCurrentProfile (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2259:59901)
+    at o.changeCurrentProfile (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2259:50038)
+    at async o.switchProfile (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2259:48875)
+    at async D.runAction (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:150:28175)
+    at async D.run (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:150:28075)
+    at async g.runAction (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1224:51057)
+2024-04-22 17:17:26.732 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.textFiles

@@ -1,0 +1,27 @@
+[05-07 12:03:41] [info] config at /home/ninh/workspace/web {"remotePath":"/Gemeinschaftsprojekt/Timon/","uploadOnSave":false,"useTempFile":false,"openSsh":false,"downloadOnOpen":false,"ignore":[],"concurrency":60,"protocol":"ftp","connectTimeout":10000,"interactiveAuth":false,"secure":false,"remoteTimeOffsetInHours":0,"remoteExplorer":{"order":0},"name":"My Server","host":"v2201910106725100809.hotsrv.de","port":21,"username":"******","password":"******"}
+[05-07 12:04:54] [info] local ➞ remote /home/ninh/workspace/web/script.js
+[05-07 12:05:43] [info] local ➞ remote /home/ninh/workspace/web/script.js
+[05-07 12:10:07] [info] local ➞ remote /home/ninh/workspace/web/script.js
+[05-07 12:10:33] [info] local ➞ remote /home/ninh/workspace/web/script.js
+[05-07 12:12:36] [info] folder transfered.
+[05-07 12:12:36] [info] folder transfered.
+[05-07 12:12:36] [info] folder transfered.
+[05-07 12:12:36] [info] folder transfered.
+[05-07 12:12:36] [info] remote ➞ local /home/ninh/workspace/web/android-chrome-192x192.png
+[05-07 12:12:36] [info] remote ➞ local /home/ninh/workspace/web/android-chrome-512x512.png
+[05-07 12:12:36] [info] remote ➞ local /home/ninh/workspace/web/apple-touch-icon.png
+[05-07 12:12:36] [info] remote ➞ local /home/ninh/workspace/web/dark.css
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/favicon-16x16.png
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/favicon-32x32.png
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/favicon.ico
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/index.html
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/jquery.js
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/light.css
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/script.js
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/site.webmanifest
+[05-07 12:12:37] [info] remote ➞ local /home/ninh/workspace/web/style.css
+[05-07 12:12:38] [info] remote ➞ local /home/ninh/workspace/web/old/dark-style.css
+[05-07 12:12:38] [info] remote ➞ local /home/ninh/workspace/web/old/index.html
+[05-07 12:12:38] [info] remote ➞ local /home/ninh/workspace/web/old/light-style.css
+[05-07 12:12:38] [info] remote ➞ local /home/ninh/workspace/web/old/script.js
+[05-07 12:12:38] [info] remote ➞ local /home/ninh/workspace/web/assets/icons/DarkLight.png

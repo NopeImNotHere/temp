@@ -1,0 +1,27 @@
+2024-04-22 17:18:36.460 [info] Extension host with pid 1560 started
+2024-04-22 17:18:36.592 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-04-22 17:18:36.616 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-22 17:18:36.697 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-22 17:18:36.930 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-22 17:18:36.951 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-22 17:18:36.990 [info] Eager extensions activated
+2024-04-22 17:18:37.016 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:18:37.019 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:19:09.707 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: false, activationEvent: 'onCommand:sftp.config'
+2024-04-22 17:20:00.359 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-22 17:20:00.367 [info] Extension host with pid 1560 exiting with code 0
+2024-04-22 17:20:01.489 [info] Extension host with pid 2382 started
+2024-04-22 17:20:01.489 [info] Skipping acquiring lock for /home/ninh/.config/VSCodium/User/workspaceStorage/77e55a5f4b4e86f44cbb2a6afd3bbdc5.
+2024-04-22 17:20:01.507 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-22 17:20:01.511 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-22 17:20:01.517 [info] Eager extensions activated
+2024-04-22 17:20:01.589 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:20:01.590 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 17:20:02.912 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-22 17:20:04.529 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: false, activationEvent: 'onCommand:sftp.config'
+2024-04-22 17:20:04.635 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-04-22 17:20:04.639 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-04-22 17:20:04.653 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-04-22 17:20:04.660 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-22 17:22:00.026 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-22 17:22:00.037 [info] Extension host with pid 2382 exiting with code 0

@@ -1,0 +1,14 @@
+[Info  - 4:53:33 PM] ESLint server is starting.
+[Info  - 4:53:33 PM] ESLint server running in node v18.18.2
+[Info  - 4:53:33 PM] ESLint server is running.
+[Warn  - 4:53:38 PM] Detected package manager() differs from the one in the deprecated packageManager setting(npm). We will honor this setting until it is removed.
+[object Object]
+[Info  - 4:53:38 PM] 
+Failed to load the ESLint library for the document /run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/script.js
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder Timon
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder Timon by executing the 'Disable ESLint' command.
+[Info  - 4:54:01 PM] ESLint server stopped.

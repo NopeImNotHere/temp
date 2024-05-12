@@ -1,0 +1,6 @@
+2024/04/01-15:38:37.456 7bcc Reusing MANIFEST leveldb/MANIFEST-000001
+2024/04/01-15:38:37.456 7bcc Recovering log #8
+2024/04/01-15:38:37.457 7bcc Reusing old log leveldb/000008.log 
+2024/04/01-15:47:40.778 983f Level-0 table #12: started
+2024/04/01-15:47:40.784 983f Level-0 table #12: 12168 bytes OK
+2024/04/01-15:47:40.787 983f Delete type=0 #8

@@ -1,0 +1,14 @@
+2024-04-22 17:18:36.968 [info] Log level: Info
+2024-04-22 17:18:36.968 [info] Validating found git in: "git"
+2024-04-22 17:18:36.988 [info] Using git "2.44.0" from "git"
+2024-04-22 17:18:36.992 [warning] Failed to get repository realpath for: "/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon". Error: ENOENT: no such file or directory, realpath '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon'
+2024-04-22 17:19:35.561 [warning] Failed to get repository realpath for: "/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon". Error: ENOENT: no such file or directory, realpath '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon'
+2024-04-22 17:19:45.343 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-22 17:19:45.343 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-22 17:20:02.987 [info] Log level: Info
+2024-04-22 17:20:02.987 [info] Validating found git in: "git"
+2024-04-22 17:20:02.987 [info] Using git "2.44.0" from "git"
+2024-04-22 17:20:02.987 [info] > git rev-parse --show-toplevel [3ms]
+2024-04-22 17:20:02.987 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-22 17:20:04.676 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-22 17:20:04.676 [info] fatal: not a git repository (or any of the parent directories): .git

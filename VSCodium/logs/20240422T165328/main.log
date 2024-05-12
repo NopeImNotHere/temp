@@ -1,0 +1,14 @@
+2024-04-22 16:53:28.847 [info] update#setState disabled
+2024-04-22 16:53:28.851 [info] update#ctor - updates are disabled as there is no update URL
+2024-04-22 16:54:01.349 [info] Extension host with pid 1804 exited with code: 0, signal: unknown.
+2024-04-22 17:01:09.627 [info] Extension host with pid 5256 exited with code: 0, signal: unknown.
+2024-04-22 17:01:09.653 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-04-22 17:01:09.654 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 5251]: crashed with code 15 and reason 'killed'
+2024-04-22 17:02:04.326 [error] ptyHost terminated unexpectedly with code 15
+2024-04-22 17:02:04.326 [warning] [UtilityProcess type: ptyHost, pid: 5856]: unable to kill the process
+2024-04-22 17:02:04.335 [info] Extension host with pid 2173 exited with code: 0, signal: unknown.
+2024-04-22 17:02:04.336 [error] [UtilityProcess id: 2, type: extensionHost, pid: 2173]: crashed with code 15 and reason 'killed'
+2024-04-22 17:02:04.337 [error] [UtilityProcess type: shared-process, pid: 1814]: crashed with code 15 and reason 'killed'
+2024-04-22 17:02:04.337 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-04-22 17:02:04.338 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 1815]: crashed with code 15 and reason 'killed'
+2024-04-22 17:02:04.343 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

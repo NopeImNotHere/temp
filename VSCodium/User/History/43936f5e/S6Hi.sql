@@ -1,0 +1,7 @@
+DROP DATABASE IF EXISTS hotelkette;
+
+CREATE DATABASE hotelkette;
+
+CREATE TABLE Beruf (
+    PK_Beruf TINYINT PRIMARY KEY 
+)

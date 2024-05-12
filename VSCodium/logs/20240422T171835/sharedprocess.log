@@ -1,0 +1,18 @@
+2024-04-22 17:18:58.098 [info] Getting Manifest... natizyskunk.sftp
+2024-04-22 17:18:58.237 [info] Installing extension: natizyskunk.sftp
+2024-04-22 17:19:00.321 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/share/vscodium/resources/app/out/bootstrap-amd.js
+- /usr/share/vscodium/resources/app/out/bootstrap-fork.js
+2024-04-22 17:19:00.327 [info] Extension signature verification is not done: natizyskunk.sftp
+2024-04-22 17:19:00.926 [info] Extracted extension to file:///home/ninh/.vscode-oss/extensions/natizyskunk.sftp-1.16.3-universal: natizyskunk.sftp
+2024-04-22 17:19:00.934 [info] Renamed to /home/ninh/.vscode-oss/extensions/natizyskunk.sftp-1.16.3-universal
+2024-04-22 17:19:00.936 [info] Extracting extension completed. natizyskunk.sftp
+2024-04-22 17:19:00.948 [info] Extension installed successfully: natizyskunk.sftp
+2024-04-22 17:19:01.027 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:35301)
+    at a (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:35436)
+    at i.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:48171)
+    at i.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:38766)
+    at async S.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:21270)
+    at async G.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:134142)

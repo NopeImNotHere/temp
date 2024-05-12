@@ -1,0 +1,4 @@
+2024-04-22 16:59:56.163 [info] Started local extension host with pid 5256.
+2024-04-22 16:59:58.860 [info] [perf] Render performance baseline is 27ms
+2024-04-22 17:00:48.984 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/ninh/tst.txt 
+2024-04-22 17:00:52.451 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyBackups, join.textFiles

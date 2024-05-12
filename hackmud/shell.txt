@@ -1,0 +1,9 @@
+
+<color=#9B9B9BFF>-terminal active-</color>
+<color=#9B9B9BFF></color>
+<color=#FF0000FF>Server returned: Unable to complete SSL connection
+</color>
+Fatal error with authentication. Application shutting down. (20 seconds)
+
+<color=#9B9B9BFF>-terminal poweroff-</color>
+<color=#9B9B9BFF></color>

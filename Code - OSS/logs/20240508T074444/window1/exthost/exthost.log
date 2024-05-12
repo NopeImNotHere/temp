@@ -1,0 +1,16 @@
+2024-05-08 07:44:46.311 [info] Extension host with pid 6275 started
+2024-05-08 07:44:46.311 [info] Skipping acquiring lock for /home/ninh/.config/Code - OSS/User/workspaceStorage/77e55a5f4b4e86f44cbb2a6afd3bbdc5.
+2024-05-08 07:44:46.423 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-08 07:44:46.426 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-05-08 07:44:46.439 [info] ExtensionService#_doActivateExtension joelday.docthis, startup: true, activationEvent: '*'
+2024-05-08 07:44:46.488 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: true, activationEvent: 'workspaceContains:.vscode/sftp.json'
+2024-05-08 07:44:46.575 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-08 07:44:46.601 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-08 07:44:46.749 [info] Eager extensions activated
+2024-05-08 07:44:46.764 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-08 07:44:46.766 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-08 07:44:46.771 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-05-08 07:44:46.773 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-08 07:44:46.780 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-05-08 07:44:48.207 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-08 07:44:48.223 [info] Extension host with pid 6275 exiting with code 0

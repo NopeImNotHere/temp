@@ -1,0 +1,11 @@
+2024-04-22 17:18:36.080 [info] Started local extension host with pid 1560.
+2024-04-22 17:18:39.006 [info] [perf] Render performance baseline is 155ms
+2024-04-22 17:19:09.798 [error] [Extension Host] (node:1560) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-04-22 17:19:31.082 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2024-04-22 17:19:32.648 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/script.js' (EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, mkdir '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de') file:///run/user/1000/gvfs/ftp%3Ahost%3Dv2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/script.js
+2024-04-22 17:19:32.651 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2024-04-22 17:20:01.207 [info] Started local extension host with pid 2382.
+2024-04-22 17:20:04.432 [info] [perf] Render performance baseline is 163ms
+2024-04-22 17:20:04.586 [error] [Extension Host] (node:2382) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

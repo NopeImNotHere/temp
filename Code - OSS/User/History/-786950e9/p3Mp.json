@@ -1,0 +1,12 @@
+{
+    "name": "My Server",
+    "host": "v2201910106725100809.hotsrv.de",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "TeamBerlin",
+    "password": "Ber23456lin!234567",
+    "remotePath": "/Gemeinschaftsprojekt/Timon/",
+    "uploadOnSave": true,
+    "useTempFile": false,
+    "openSsh": false
+}

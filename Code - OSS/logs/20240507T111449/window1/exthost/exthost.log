@@ -1,0 +1,67 @@
+2024-05-07 11:14:51.452 [info] Extension host with pid 80019 started
+2024-05-07 11:14:51.452 [info] Skipping acquiring lock for /home/ninh/.config/Code - OSS/User/workspaceStorage/77e55a5f4b4e86f44cbb2a6afd3bbdc5.
+2024-05-07 11:14:51.615 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-07 11:14:51.621 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-05-07 11:14:51.906 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-07 11:14:51.908 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-05-07 11:14:51.917 [info] ExtensionService#_doActivateExtension joelday.docthis, startup: true, activationEvent: '*'
+2024-05-07 11:14:51.969 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: true, activationEvent: 'workspaceContains:.vscode/sftp.json'
+2024-05-07 11:14:52.044 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-07 11:14:52.065 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-07 11:14:52.250 [info] Eager extensions activated
+2024-05-07 11:14:52.253 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:14:52.255 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:14:52.261 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:14:52.264 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:14:52.270 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:15:12.391 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-07 11:15:12.409 [info] Extension host with pid 80019 exiting with code 0
+2024-05-07 11:15:13.212 [info] Extension host with pid 80320 started
+2024-05-07 11:15:13.212 [info] Skipping acquiring lock for /home/ninh/.config/Code - OSS/User/workspaceStorage/65b4a40ab63c8d53f0167aab5c1f5e25.
+2024-05-07 11:15:13.241 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-05-07 11:15:13.244 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-05-07 11:15:13.354 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-07 11:15:13.364 [info] ExtensionService#_doActivateExtension DEVSENSE.phptools-vscode, startup: true, activationEvent: 'workspaceContains:**/*.php,phpunit.*'
+2024-05-07 11:15:13.553 [info] Eager extensions activated
+2024-05-07 11:15:13.606 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:15:13.608 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:15:13.613 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:15:14.797 [info] ExtensionService#_doActivateExtension DEVSENSE.intelli-php-vscode, startup: false, activationEvent: 'api', root cause: DEVSENSE.phptools-vscode
+2024-05-07 11:15:16.666 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-05-07 11:15:16.712 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:15:16.714 [info] ExtensionService#_doActivateExtension joelday.docthis, startup: false, activationEvent: '*'
+2024-05-07 11:15:16.751 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:15:18.461 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-05-07 11:15:18.465 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-05-07 11:15:18.480 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-05-07 11:15:18.487 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-07 11:15:19.398 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-05-07 11:15:20.212 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-05-07 11:15:20.220 [info] ExtensionService#_doActivateExtension lkrms.pretty-php, startup: false, activationEvent: 'onLanguage:php'
+2024-05-07 11:15:23.673 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-05-07 11:19:04.623 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:19:04.623 [error] undefined
+2024-05-07 11:19:08.637 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:19:08.637 [error] undefined
+2024-05-07 11:20:57.083 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:20:57.083 [error] undefined
+2024-05-07 11:20:57.948 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:20:57.948 [error] undefined
+2024-05-07 11:22:20.396 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:22:20.396 [error] undefined
+2024-05-07 11:22:20.765 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:22:20.765 [error] undefined
+2024-05-07 11:23:13.524 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:23:13.524 [error] undefined
+2024-05-07 11:23:15.262 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:23:15.262 [error] undefined
+2024-05-07 11:23:15.998 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:23:15.998 [error] undefined
+2024-05-07 11:23:20.763 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:23:20.763 [error] undefined
+2024-05-07 11:23:22.964 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:23:22.964 [error] undefined
+2024-05-07 11:23:40.992 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:23:40.993 [error] undefined
+2024-05-07 11:23:41.031 [error] [ecmel.vscode-html-css] provider FAILED
+2024-05-07 11:23:41.031 [error] undefined

@@ -1,0 +1,51 @@
+2024-05-07 11:31:43.558 [info] Extension host with pid 3787 started
+2024-05-07 11:31:43.558 [info] Skipping acquiring lock for /home/ninh/.config/Code - OSS/User/workspaceStorage/65b4a40ab63c8d53f0167aab5c1f5e25.
+2024-05-07 11:31:43.614 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-05-07 11:31:43.635 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-07 11:31:44.175 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-07 11:31:44.178 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-05-07 11:31:44.188 [info] ExtensionService#_doActivateExtension joelday.docthis, startup: true, activationEvent: '*'
+2024-05-07 11:31:44.260 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-07 11:31:44.295 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-07 11:31:44.432 [info] ExtensionService#_doActivateExtension DEVSENSE.phptools-vscode, startup: true, activationEvent: 'workspaceContains:**/*.php,phpunit.*'
+2024-05-07 11:31:44.592 [info] Eager extensions activated
+2024-05-07 11:31:44.648 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:31:44.651 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:31:44.657 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:31:44.660 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:31:44.667 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 11:31:45.961 [info] ExtensionService#_doActivateExtension DEVSENSE.intelli-php-vscode, startup: false, activationEvent: 'api', root cause: DEVSENSE.phptools-vscode
+2024-05-07 11:40:00.722 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-05-07 11:40:00.731 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-05-07 11:40:00.749 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-05-07 12:03:39.836 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-07 12:03:39.889 [error] Error: Channel has been closed
+    at d (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:155:2490)
+    at Object.appendLine (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:155:2608)
+    at S.logOutputMessage (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:265166)
+    at S.error (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:265057)
+    at ChildProcess.<anonymous> (/usr/lib/code/extensions/html-language-features/client/dist/node/htmlClientMain.js:1:446046)
+    at ChildProcess.emit (node:events:517:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:292:12)
+2024-05-07 12:03:39.891 [error] Error: Connection is closed.
+    at An (/home/ninh/.vscode-oss/extensions/devsense.phptools-vscode-1.45.15272-linux-x64/out/src/extension.js:101:421)
+    at Object.sendNotification (/home/ninh/.vscode-oss/extensions/devsense.phptools-vscode-1.45.15272-linux-x64/out/src/extension.js:101:1472)
+    at Object.exit (/home/ninh/.vscode-oss/extensions/devsense.phptools-vscode-1.45.15272-linux-x64/out/src/extension.js:106:8747)
+    at /home/ninh/.vscode-oss/extensions/devsense.phptools-vscode-1.45.15272-linux-x64/out/src/extension.js:108:6957
+2024-05-07 12:03:39.891 [info] Extension host with pid 3787 exiting with code 0
+2024-05-07 12:03:41.252 [info] Extension host with pid 28456 started
+2024-05-07 12:03:41.252 [info] Skipping acquiring lock for /home/ninh/.config/Code - OSS/User/workspaceStorage/77e55a5f4b4e86f44cbb2a6afd3bbdc5.
+2024-05-07 12:03:41.288 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-07 12:03:41.294 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-05-07 12:03:41.512 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-07 12:03:41.516 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-05-07 12:03:41.533 [info] ExtensionService#_doActivateExtension joelday.docthis, startup: true, activationEvent: '*'
+2024-05-07 12:03:41.587 [info] ExtensionService#_doActivateExtension Natizyskunk.sftp, startup: true, activationEvent: 'workspaceContains:.vscode/sftp.json'
+2024-05-07 12:03:41.728 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-07 12:03:41.751 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-07 12:03:41.931 [info] Eager extensions activated
+2024-05-07 12:03:41.934 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 12:03:41.936 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 12:03:41.942 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 12:03:41.944 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-05-07 12:03:41.952 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'

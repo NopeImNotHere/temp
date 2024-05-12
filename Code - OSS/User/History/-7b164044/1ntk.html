@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="meinjscode.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="menue.css">
+	<title>ToDo-Tool</title>
+
+	<script>
+
+		var TurnusArray = ["bitte wählen", "Täglich", "Mo. bis Fr."];
+
+		function FormAnlegen() {
+			html_code = '<h1> Aufgabe anlegen</h1>';
+			html_code += 'Turnus:';
+			html_code += '<select id="Turnus" onchange="FormTurnus()">';
+			for (var i = 0; i < TurnusArray.length; i++) {
+				html_code += '	<option value="' + i + '">' + TurnusArray[i] + '</option>';
+			}
+			html_code += '</select>';
+			document.getElementById("inhalt").innerHTML = html_code;
+		}
+
+		function FormTurnus() {
+			var element = document.getElementById('Turnus');
+			var Turnus = element.options[element.selectedIndex].value;
+
+			html_code = '<h1> Aufgabe anlegen</h1>';
+			html_code += '<table>';
+			html_code += '	<tr>';
+			html_code += '		<td><label for="Turnus">Turnus:</label></td>';
+			html_code += '		<td>' + TurnusArray[Turnus] + '<input type="hidden" id="Turnus" value="' + Turnus + '"></td>';
+			html_code += '	</tr>';
+			html_code += '	<tr>';
+			html_code += '		<td><label for="Aufgabentitel">Aufgabentitel:</label></td>';
+			html_code += '		<td><input type="text" id="Aufgabentitel" name="Aufgabentitel"></td>';
+			html_code += '	</tr>';
+			html_code += '	<tr>';
+			html_code += '		<td><label for="Uhrzeit">Uhrzeit:</label></td>';
+			html_code += '		<td><input type="time" id="Uhrzeit" name="Uhrzeit"></td>';
+			html_code += '	</tr>';
+			html_code += '</table>';
+			html_code += '<button onclick="AufgabeAnlegen()">Aufgabe anlegen</button>';
+			document.getElementById("inhalt").innerHTML = html_code;
+		}
+
+		function AufgabeAnlegen() {
+			var Turnus = document.getElementById('Turnus').value;
+			var Aufgabentitel = document.getElementById('Aufgabentitel').value;
+			var Uhrzeit = document.getElementById('Uhrzeit').value;
+			$.post("api.php",
+				{
+					action: "AufgabeAnlegen",
+					Turnus: Turnus,
+					Aufgabentitel: Aufgabentitel,
+					Uhrzeit: Uhrzeit
+				},
+				function (data, status) {
+					let jsonObject = JSON.parse(data);
+					if (jsonObject.status == 0) {
+						alert('API-Fehler: ' + jsonObject.error_code);
+					} else {
+						console.log(jsonObject);
+						EditForm(jsonObject.PK_Aufgabe);
+					}
+				});
+		}
+
+
+		function EditForm(PK_Aufgabe) {
+			$.post("api.php",
+				{
+					action: "Aufgabe",
+					PK_Aufgabe: PK_Aufgabe,
+				},
+				function (data, status) {
+					let jsonObject = JSON.parse(data);
+					if (jsonObject.status == 0) {
+						alert('API-Fehler: ' + jsonObject.error_code);
+					} else {
+						Turnus = jsonObject.Aufgaben[0].Turnus;
+						Uhrzeit = jsonObject.Aufgaben[0].Uhrzeit;
+						Aufgabentitel = jsonObject.Aufgaben[0].Aufgabentitel;
+
+						html_code = '<h1>Aufgabe bearbeiten</h1>';
+						html_code += '<table>';
+						html_code += '	<tr>';
+						html_code += '		<td><label for="Turnus">Turnus:</label></td>';
+						html_code += '		<td><select id="Turnus" onchange="TurnusEdit(\'' + PK_Aufgabe + '\')">';
+						for (var i = 1; i < TurnusArray.length; i++) {
+							if (i == Turnus) {
+								html_code += '<option value="' + i + '" selected>' + TurnusArray[i] + '</option>';
+							} else {
+								html_code += '<option value="' + i + '">' + TurnusArray[i] + '</option>';
+							}
+						}
+						html_code += '		</select><input type="hidden" id="hiddenTurnus" value="' + Turnus + '"></td>';
+						html_code += '	</tr>';
+						html_code += '	<tr>';
+						html_code += '		<td><label for="Aufgabentitel">Aufgabentitel:</label></td>';
+						html_code += '		<td><input type="text" id="Aufgabentitel" name="Aufgabentitel" value="' + Aufgabentitel + '" onblur="AufgabentitelEdit(\'' + PK_Aufgabe + '\')">';
+						html_code += '			<input type="hidden" id="hiddenAufgabentitel" value="' + Aufgabentitel + '"></td>';
+						html_code += '	</tr>';
+						html_code += '	<tr>';
+						html_code += '		<td><label for="Uhrzeit">Uhrzeit:</label></td>';
+						html_code += '		<td><input type="time" id="Uhrzeit" name="Uhrzeit" value="' + Uhrzeit + '" onblur ="UhrzeitEdit(\'' + PK_Aufgabe + '\')">';
+						html_code += '			<input type="hidden" id="hiddenUhrzeit" value="' + Uhrzeit + '"></td>';
+						html_code += '	</tr>';
+						html_code += '</table>';
+						document.getElementById("inhalt").innerHTML = html_code;
+
+					}
+				});
+		}
+
+		function TurnusEdit(PK_Aufgabe) {
+			var element = document.getElementById('Turnus');
+			var Turnus = element.options[element.selectedIndex].value;
+			if (confirm("Wollen Sie den Turnus ändern?")) {
+
+				$.post("api.php",
+					{
+						action: "TurnusAendern",
+						Turnus: Turnus,
+						PK_Aufgabe: PK_Aufgabe
+					},
+					function (data, status) {
+						let jsonObject = JSON.parse(data);
+						if (jsonObject.status == 0) {
+							alert('API-Fehler: ' + jsonObject.error_code);
+						} else {
+							document.getElementById('hiddenTurnus').value = Turnus;
+						}
+					});
+			} else {
+				element.selectedIndex = document.getElementById('hiddenTurnus').value - 1;
+			}
+		}
+
+		function Loeschen(PK_Aufgabe, Aufgabentitel) {
+			if (confirm('Wollen Sie die Aufgabe "' + Aufgabentitel + '" wirklich löschen?')) {
+				$.post("api.php",
+					{
+						action: "Loeschen",
+						PK_Aufgabe: PK_Aufgabe
+					},
+					function (data, status) {
+						let jsonObject = JSON.parse(data);
+						if (jsonObject.status == 0) {
+							alert('API-Fehler: ' + jsonObject.error_code);
+						} else {
+							Liste();
+						}
+					});
+			}
+		}
+
+		function UhrzeitEdit(PK_Aufgabe) {
+			if (confirm("Wollen Sie die Uhrzeit ändern?")) {
+				Uhrzeit = document.getElementById('Uhrzeit').value;
+				$.post("api.php",
+					{
+						action: "UhrzeitAendern",
+						PK_Aufgabe: PK_Aufgabe,
+						Uhrzeit: Uhrzeit,
+					},
+					function (data, status) {
+						let jsonObject = JSON.parse(data);
+						if (jsonObject.status == 0) {
+							alert('API-Fehler: ' + jsonObject.error_code);
+						} else {
+							document.getElementById('hiddenUhrzeit').value = Uhrzeit;
+						}
+					});
+			} else {
+				document.getElementById('Uhrzeit').value = document.getElementById('hiddenUhrzeit').value;
+			}
+		}
+
+		function AufgabentitelEdit(PK_Aufgabe) {
+			if (confirm("Wollen Sie den Titel ändern?")) {
+				Aufgabentitel = document.getElementById('hiddenAufgabentitel').value;
+				$.post("api.php",
+					{
+						action: "AufgabentitelAendern",
+						Aufgabentitel: Aufgabentitel,
+						PK_Aufgabe: PK_Aufgabe
+					},
+					function (data, status) {
+						let jsonObject = JSON.parse(data);
+						if (jsonObject.status == 0) {
+							alert('API-Fehler: ' + jsonObject.error_code);
+						} else {
+							document.getElementById('hiddenAufgabentitel').value = Aufgabentitel;
+						}
+					});
+			} else {
+				document.getElementById('Aufgabentitel').value = document.getElementById('hiddenAufgabentitel').value;
+			}
+		}
+
+		function Liste(PK_Aufgabe) {
+			$.post("api.php",
+				{
+					action: "Aufgaben"
+				},
+				function (data, status) {
+					let jsonObject = JSON.parse(data);
+					if (jsonObject.status == 0) {
+						alert('API-Fehler: ' + jsonObject.error_code);
+					} else {
+						html_code = '<h1>Liste der Aufgabe</h1>';
+						html_code += '<table>';
+						html_code += '	<tr>';
+						html_code += '		<th>Aufgabentitel</th>';
+						html_code += '		<th></th>';
+						html_code += '		<th></th>';
+						html_code = '	</tr>';
+
+						for (var i = 0; i < jsonObject.Aufgaben.length; i++) {
+							Aufgabentitel = jsonObject.Aufgaben[i].Aufgabentitel;
+							PK_Aufgabe = jsonObject.Aufgaben[i].PK_Aufgabe;
+							html_code += '	<tr>';
+							html_code += '		<td>' + Aufgabentitel + '</td>';
+							html_code += '		<td><button onclick="EditForm(\'' + PK_Aufgabe + '\')">Editiern</button></td>';
+							html_code += '		<td><button onclick="Loeschen(\'' + PK_Aufgabe + '\',\'' + Aufgabentitel + '\')">Löschen</button></td>';
+							html_code += '	</tr>';
+						}
+						html_code += '</table>';
+						document.getElementById("inhalt").innerHTML = html_code;
+					}
+				});
+		}
+	</script>
+
+
+</head>
+
+<body>
+	<!-- Das Menue wurde von W3schooles übernommen: https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp -->
+	<div class="navbar">
+		<a href="javascript:Liste()">ToDo-Liste</a>
+		<a href="javascript:FormAnlegen()">Aufgabe anlegen</a>
+
+	</div>
+	<div id="inhalt">Willkommen!
+	</div>
+</body>
+
+</html>

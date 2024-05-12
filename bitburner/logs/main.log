@@ -1,0 +1,17 @@
+[2024-03-28 15:44:36.840] [info]  Started app: ["/home/ninh/.local/share/Steam/steamapps/common/Bitburner/bitburner","--no-sandbox"]
+[2024-03-28 15:44:36.854] [info]  Steam API has been initialized.
+[2024-03-28 15:44:36.926] [info]  Application is ready!
+[2024-03-28 15:44:38.097] [warn]  '/home/ninh/.config/bitburner/saves' not found, creating it...
+[2024-03-28 15:44:38.097] [warn]  '/home/ninh/.config/bitburner/saves/17bb5c3153c08b' not found, creating it...
+[2024-03-28 15:44:38.098] [warn]  '/home/ninh/.config/bitburner/saves/_backups' not found, creating it...
+[2024-03-28 15:44:38.203] [error] Could not retrieve steam file
+[2024-03-28 15:44:38.204] [info]  No data to import
+[2024-03-28 15:48:50.063] [info]  Granting Steam achievement NS2
+[2024-03-28 15:49:24.424] [warn]  API server not listening
+[2024-03-28 15:49:24.638] [info]  Quitting the app...
+[2024-03-30 11:30:24.381] [info]  Started app: ["/home/ninh/.local/share/Steam/steamapps/common/Bitburner/bitburner","--no-sandbox"]
+[2024-03-30 11:30:24.398] [info]  Steam API has been initialized.
+[2024-03-30 11:30:24.518] [info]  Application is ready!
+[2024-03-30 11:30:25.956] [error] Could not retrieve steam file
+[2024-03-30 11:31:08.724] [warn]  API server not listening
+[2024-03-30 11:31:08.930] [info]  Quitting the app...

@@ -1,0 +1,10 @@
+2024-04-22 17:03:51.402 [info] Started local extension host with pid 1127.
+2024-04-22 17:03:54.265 [info] [perf] Render performance baseline is 26ms
+2024-04-22 17:03:54.740 [error] Unable to read file '/home/ninh/tst.txt' (Error: File not modified since): Error: Unable to read file '/home/ninh/tst.txt' (Error: File not modified since)
+    at n.restoreReadError (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:657:26211)
+    at n.doReadFileStream (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:657:25998)
+    at async l.doRead (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2376:57137)
+    at async l.readStream (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2376:56812)
+    at async _.resolveFromFile (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:18987)
+    at async _.resolve (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:17059)
+    at async vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:2376:50968

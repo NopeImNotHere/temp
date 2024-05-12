@@ -1,0 +1,5 @@
+[Added Associations]
+inode/directory=code-oss.desktop;vscodium.desktop;
+application/xml=vscodium.desktop;
+text/plain=vscodium.desktop;
+text/x-arduino=code-oss.desktop;

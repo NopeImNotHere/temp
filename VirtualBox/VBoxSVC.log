@@ -1,0 +1,75 @@
+00:00:00.003376 main     VirtualBox XPCOM Server 7.0.16 r162802 linux.amd64 (Apr 17 2024 07:24:24) release log
+00:00:00.003378 main     Log opened 2024-05-08T08:21:29.918050000Z
+00:00:00.003379 main     Build Type: release
+00:00:00.003381 main     OS Product: Linux
+00:00:00.003382 main     OS Release: 6.8.8-arch1-1
+00:00:00.003383 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sun, 28 Apr 2024 15:59:47 +0000
+00:00:00.003423 main     DMI Product Name: XMG CORE 15(M20, GTX 1650xx)
+00:00:00.003440 main     DMI Product Version: Standard
+00:00:00.003446 main     Firmware type: UEFI
+00:00:00.003579 main     Secure Boot: Disabled
+00:00:00.003618 main     Host RAM: 15407MB (15.0GB) total, 14856MB (14.5GB) available
+00:00:00.003632 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.003632 main     Process ID: 1032
+00:00:00.003633 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.005780 main     IPC socket path: /tmp/.vbox-ninh-ipc/ipcd
+00:00:00.115507 nspr-2   VirtualBox: object creation starts
+00:00:00.116598 nspr-2   Home directory: '/home/ninh/.config/VirtualBox'
+00:00:00.116909 nspr-2   Loading settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.122747 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.123041 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.143848 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.146077 nspr-2   HostDnsMonitor: initializing
+00:00:00.146515 nspr-2   NAT: resolv.conf: nameserver 91.102.136.18
+00:00:00.146523 nspr-2   NAT: resolv.conf: nameserver 91.102.136.19
+00:00:00.146535 nspr-2   HostDnsMonitor: updating information
+00:00:00.146547 nspr-2   HostDnsMonitor: old information
+00:00:00.146551 nspr-2     no server entries
+00:00:00.146554 nspr-2     no domain set
+00:00:00.146558 nspr-2     no search string entries
+00:00:00.146561 nspr-2   HostDnsMonitor: new information
+00:00:00.146565 nspr-2     server 1: 91.102.136.18
+00:00:00.146569 nspr-2     server 2: 91.102.136.19
+00:00:00.146573 nspr-2     domain: sg-tbk.local
+00:00:00.146577 nspr-2     search string 1: sg-tbk.local
+00:00:00.152087 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.152884 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.157520 nspr-2   Loading settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:00.159328 nspr-2   VirtualBox: object created
+00:00:01.093897 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:02.531573 nspr-5   Launched VM: 740499360 pid: 1086 (0x43e) frontend: GUI/Qt name: BSNW
+00:00:02.581171 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:02.933188 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.100874 nspr-2   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.108718 nspr-2   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:00:03.621187 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:04.003418 nspr-4   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:04.011784 nspr-4   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:00:05.320065 nspr-3   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:05.361674 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:05.439612 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:05.628737 nspr-8   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:05.633431 nspr-8   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:00:05.735415 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.803628 nspr-7   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:05.818360 nspr-7   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:05.826016 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:05.844797 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:11.848587 nspr-5   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:11.850768 nspr-5   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:11.876193 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:11.899228 nspr-6   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:11.901606 nspr-6   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:02:48.798533 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:02:48.854220 nspr-3   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:02:48.856467 nspr-3   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:02:48.881660 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:49.930591 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:50.223468 nspr-8   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:50.229121 nspr-8   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:03:00.260670 main     VirtualBox: object deletion starts
+00:03:00.260760 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/ninh/VirtualBox VMs/BSNW/BSNW.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:03:00.261801 main     HostDnsMonitor: shutting down ...
+00:03:00.268884 main     HostDnsMonitor: shut down
+00:03:00.279847 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:03:00.279943 main     VirtualBox: object deleted

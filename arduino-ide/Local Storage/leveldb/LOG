@@ -1,0 +1,6 @@
+2024/04/30-08:18:58.011 4943 Reusing MANIFEST /home/ninh/.config/arduino-ide/Local Storage/leveldb/MANIFEST-000001
+2024/04/30-08:18:58.011 4943 Recovering log #4
+2024/04/30-08:18:58.011 4943 Reusing old log /home/ninh/.config/arduino-ide/Local Storage/leveldb/000004.log 
+2024/04/30-08:32:00.185 4943 Level-0 table #7: started
+2024/04/30-08:32:00.192 4943 Level-0 table #7: 20415 bytes OK
+2024/04/30-08:32:00.195 4943 Delete type=0 #4
